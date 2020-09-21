@@ -1,0 +1,16 @@
+{
+  "name": "svgr-webpack-issue",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "rimraf dist && webpack"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "file-loader": "^6.1.0",
+    "react": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
